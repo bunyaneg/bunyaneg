@@ -44,3 +44,14 @@
 .encyclopedia-footer{display:flex;justify-content:space-between;padding-top:13px;color:#8b948f;font-size:8px;letter-spacing:1.5px}
 @media(max-width:850px){.bunyan-encyclopedia{padding-top:80px;padding-bottom:80px}.encyclopedia-intro{grid-template-columns:1fr;gap:15px}.encyclopedia-feature{grid-template-columns:1fr}.encyclopedia-photo{min-height:420px}.encyclopedia-feature-copy{padding:48px 38px}.encyclopedia-meta{margin-bottom:30px}}
 @media(max-width:560px){.encyclopedia-intro h2{font-size:50px}.encyclopedia-feature{border-radius:2px}.encyclopedia-photo{min-height:320px}.encyclopedia-number,.encyclopedia-open{left:18px}.encyclopedia-feature-copy{padding:42px 24px}.encyclopedia-feature-copy h3{font-size:72px}.encyclopedia-ar{font-size:18px}.encyclopedia-feature-copy>p{font-size:13px}.encyclopedia-footer{font-size:7px}.encyclopedia-footer span:nth-child(2){display:none}}
+
+/* First Bunyan project + coming soon states */
+.encyclopedia-card{position:relative;border:2px solid var(--gold);box-shadow:0 18px 55px rgba(13,31,26,.14)}
+.encyclopedia-card:after{content:"أول مشروع";position:absolute;top:14px;right:14px;z-index:3;background:var(--gold);color:var(--dg);padding:6px 11px;border-radius:999px;font-size:9px;font-weight:800;letter-spacing:.4px}
+.project-badge{position:absolute!important;top:16px;left:16px;color:var(--cream)!important;background:rgba(13,31,26,.75);border:1px solid rgba(232,220,196,.3);padding:6px 10px;border-radius:999px;z-index:2}
+.coming-soon{opacity:.82}
+.coming-soon .visual{filter:saturate(.55)}
+.coming-soon>div:last-child{min-height:180px}
+.coming-soon strong{display:inline-block;margin-top:3px;color:var(--gold);font-size:12px}
+.coming-reel{align-items:flex-start!important;justify-content:flex-end!important}
+.coming-reel strong{font-size:55px!important;color:var(--gold)}
